@@ -1,6 +1,6 @@
 {
-    "name": "the-shell",
-    "description": "Theme for Ghost which use 'Ghost in The Shell' animation series palette colors",
+    "name": "the-shell-2-point-0",
+    "description": "Theme for Ghost which use 'Ghost in The Shell' animation series palette colors (modified by GeekJosh)",
     "demo": "https://ghostintheshell.ghost.io",
     "version": "2.0.0",
     "engines": {

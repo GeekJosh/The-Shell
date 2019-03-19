@@ -13,6 +13,9 @@
             padding: 60px 0;
         }
     }
+    &-title {
+      font-family: "Major Mono Display", "Courier New", Courier, monospace;
+    }
     &-header #blog-logo:before {
         margin: 60px auto;
     }
