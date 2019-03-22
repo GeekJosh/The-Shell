@@ -29,6 +29,9 @@
         margin: 4rem 0 0 0;
         padding: 4rem 0 0 0;
         border-top: $border 1px solid;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         h4 {
             font-size: 1.8rem;
             margin: 0;
@@ -38,14 +41,7 @@
             font-size: 1.4rem;
             line-height: 1.6em;
         }
-        .author {
-            margin-right: 180px;
-        }
         .share {
-            position: absolute;
-            top: 4rem;
-            right: 0;
-            width: 140px;
             a {
                 font-size: 1.8rem;
                 display: inline-block;

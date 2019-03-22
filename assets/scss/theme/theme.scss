@@ -106,14 +106,14 @@
         display: inline-block;
         margin: 0 0 5px 0;
         font-size: 1.5rem;
-        color: #846d8f;
+        color: $ghost-purple;
     }
      a {
-        color: #846d8f;
+        color: $ghost-purple;
         text-decoration: none;
         &:hover {
             text-decoration: underline;
-            color: lighten(#846d8f, 10%);
+            color: lighten($ghost-purple, 10%);
         }
     }
     
