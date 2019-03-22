@@ -26,6 +26,15 @@ function styles() {
         .pipe(browserSync.stream());
 }
 
+function mozTalkStyles() {
+  return gulp.src('assets/scss/moz-talk.scss')
+      .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+      .pipe(sourcemaps.write())
+      .pipe(autoprefixer({browsers: ['last 2 versions']}))
+      .pipe(gulp.dest('assets/css/'))
+      .pipe(browserSync.stream());
+}
+
 function release() {
     var targetDir = 'dist/';
     var themeName = require('./package.json').name;
@@ -54,3 +63,4 @@ function watchFiles() {
 exports.styles = styles;
 exports.release = release;
 exports.watch = watchFiles;
+exports.mozTalkStyles = mozTalkStyles;

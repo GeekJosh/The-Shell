@@ -60,6 +60,16 @@
 
         </footer>
 
+        <section class="post-comments">
+          <div id="coral_talk_stream"></div>
+          <script src="https://talk.geekjosh.co.uk/static/embed.js" async onload="
+            Coral.Talk.render(document.getElementById('coral_talk_stream'), {
+              talk: 'https://talk.geekjosh.co.uk/',
+              lazy: true,
+            });
+          "></script>
+        </section>
+
         {{/post}}
 
     </article>
